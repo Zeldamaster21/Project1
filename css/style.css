@@ -1,7 +1,7 @@
 /* my page styles*/
 body{
 	font-family: 'Courier New', monospace;
-	background-image: url("rainonwindows.jpg")
+	background-image: url("rainonwindows.jpg");
 }
 
 h1, h2, h3, h4, p {
@@ -64,20 +64,4 @@ h3,h4{
 }
 p, ul{
 	font-size: 1.0rem;
-}
-
-/* Tables */
-.fact-table{
-	width:100%;
-	background-color:
-	border-radius: 1rem;
-	margin: 0 auto;
-}
-.fact-table th, .fact-table td{
-	padding: 1.0rem;
-	text-align: center;
-	border: 1px solid #333;
-}
-.fact-table th{
-	font-size: 1rem;
 }
