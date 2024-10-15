@@ -5,7 +5,7 @@ body{
 }
 
 h1, h2, h3, h4, p {
-	margin: 0 0 1.5 rem;
+	margin: 0 0 1.5em;
 }
 
 .container{
@@ -23,7 +23,7 @@ h1, h2, h3, h4, p {
 }
 
 .menu h1{
-	color: #FFFFFF;
+	color: #ffffff;
 	margin-bottom: 1rem;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, p {
 	margin-right:1.5rem;
 }
 .menu ul li a{
-	color:
+	color: #ffffff
 	text-decoration: none:
 	font-size: 1.2rem;
 }
@@ -55,7 +55,14 @@ h3,h4{
 	color: #164B87;
 	font-weight: 300;
 }
-
-
-
+/* info styles */
+.introduction-section, .education, .hobbies, .place-of-work{
+	background-color: #ffffff
+	border-radius: 1rem;
+	padding: 2rem;
+	margin-bottom: 3rem;
+}
+p, ul{
+	font-size: 1.0rem
+}
 
