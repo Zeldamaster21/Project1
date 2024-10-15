@@ -1,26 +1,27 @@
  <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
     <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1 </title>
+	<link rel="stylesheet" href="css/style.css">
   </head>
   
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">About Daniel Felipe</a></li>
-          <li><a href="page2.html">Information on Rugby</a></li>
-          <li><a href="page3.html">My Family Info</a></li>
+    <div class="menu" id="navigation-menu">
+		<h1 class="menu-title"> Come Explore My Website</h1>
+		<ul class="menu-list">
+          <li class="menu item"><a href="index.html" class="menu-link">About Daniel Felipe</a></li>
+          <li class="menu item"><a href="page2.html" class="menu-link">Information on Rugby</a></li>
+          <li class="menu item"><a href="page3.html" class="menu-link">My Family Info</a></li>
         </ul>
-      </nav>
-    </header>
+     </div>
     
-    <section>
-      <h1> What is Rugby?</h1>
+    <section class="rugby" id="rugby-info">
+      <h1 class="page-title"> What is Rugby?</h1>
       <img src="media/rugby.jpg" alt="A photo of Rugby player going through defense line">
-      <h3> A bit of Info on Rugby</h3>
-      <ul>
+      <h3 class="section-title"> A bit of Info on Rugby</h3>
+      <ul class="rugby-list">
         <li> You pass the ball backwards always </li>
         <li> you have to tackle from the waist down</li>
         <li>there are 30 total players in the field</li>
@@ -32,8 +33,8 @@
       </ul>
     </section>
     
-    <section>
-      <h3> Heres a video on the basics rules of rugby</h3>
+    <section class="rugby-video" id="rugby video">
+      <h3 class="section-title"> Heres a video on the basics rules of rugby</h3>
       <iframe width="560" height="315" src="https://www.youtube.com/watch?v=FOJejnPI0p0"
         title="Ruby for beginners: a guide to the rules of rugby union"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; webshare" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
