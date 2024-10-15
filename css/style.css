@@ -66,3 +66,18 @@ p, ul{
 	font-size: 1.0rem
 }
 
+/* Tables */
+.fact-table{
+	width:100%;
+	background-color:
+	border-radius: 1rem;
+	margin: 0 auto;
+}
+.fact-table th, .fact-table td{
+	padding: 1.0rem;
+	text-align: center;
+	border: 1px solid #333;
+}
+.fact-table th{
+	font-size: 1rem;
+}
