@@ -12,8 +12,8 @@ h1, h2, h3, h4, p {
 
 .container{
 	width:80%;
-	margin 0 auto;
-	padding 2rem;
+	margin: 0 auto;
+	padding: 2rem;
 	text-align: center;
 }
 
@@ -35,7 +35,7 @@ h1, h2, h3, h4, p {
 }
 
 .menu ul li{
-	display inline;
+	display: inline;
 	margin-right:1.5rem;
 }
 .menu ul li a{
@@ -67,3 +67,4 @@ h3,h4{
 p, ul{
 	font-size: 1.0rem;
 }
+
