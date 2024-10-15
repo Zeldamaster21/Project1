@@ -37,8 +37,8 @@ h1, h2, h3, h4, p {
 	margin-right:1.5rem;
 }
 .menu ul li a{
-	color: #ffffff
-	text-decoration: none:
+	color: #ffffff;
+	text-decoration: none;
 	font-size: 1.2rem;
 }
 
@@ -57,13 +57,13 @@ h3,h4{
 }
 /* info styles */
 .introduction-section, .education, .hobbies, .place-of-work{
-	background-color: #ffffff
+	background-color: #ffffff;
 	border-radius: 1rem;
 	padding: 2rem;
 	margin-bottom: 3rem;
 }
 p, ul{
-	font-size: 1.0rem
+	font-size: 1.0rem;
 }
 
 /* Tables */
