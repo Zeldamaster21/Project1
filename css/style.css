@@ -58,7 +58,7 @@ h3,h4{
 	font-weight: 700;
 }
 /* info styles */
-.introduction-section, .education, .hobbies, .place-of-work, .rugby-info, .info-on-my-mother, .info-on-my-father, .info-about-my-dog{
+.introduction, .education, .hobbies, .place-of-work, .rugby, .info-on-my-mother, .info-on-my-father, .info-about-my-dog{
 	background-color: #ffffff;
 	border-radius: 1rem;
 	padding: 2rem;
@@ -67,4 +67,5 @@ h3,h4{
 p, ul{
 	font-size: 1.0rem;
 }
+
 
