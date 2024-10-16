@@ -58,7 +58,7 @@ h3,h4{
 	font-weight: 700;
 }
 /* info styles */
-.introduction, .education, .hobbies, .place-of-work, .rugby, .info-on-my-mother, .info-on-my-father, .info-about-my-dog{
+.intoduction, .education, .hobbies, .place-of-work, .rugby, .info-on-my-mother, .info-on-my-father, .info-about-my-dog{
 	background-color: #ffffff;
 	border-radius: 1rem;
 	padding: 2rem;
