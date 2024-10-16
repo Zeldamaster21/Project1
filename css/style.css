@@ -20,7 +20,7 @@ h1, h2, h3, h4, p {
 /* Navigation Menu */
 .menu{
 	background-color: #1a70c2;
-	padding: 1.5 rem 0;
+	padding: 1.5rem 0;
 	margin-bottom: 3rem;
 }
 
@@ -46,7 +46,7 @@ h1, h2, h3, h4, p {
 
 /* header styles */
 h1{
-	font-size: 2.5 rem;
+	font-size: 2.5rem;
 	color: #0075FC;
 }
 h2{
