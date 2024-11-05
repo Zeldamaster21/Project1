@@ -32,12 +32,13 @@ h1, h2, h3, h4, p {
 
 .menu ul{
 	list-style: none;
+	margin:0;
 	padding: 0;
+	display:flex;
 }
 
 .menu ul li{
-	display: inline;
-	margin-right:1.5rem;
+	margin: 0 15px;
 }
 .menu ul li a{
 	color: #ffffff;
