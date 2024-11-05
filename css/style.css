@@ -11,10 +11,10 @@ h1, h2, h3, h4, p {
 }
 
 .container{
-	width:80%;
-	margin: 0 auto;
-	padding: 2rem;
-	text-align: center;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	display:felx;
 }
 
 /* Navigation Menu */
@@ -23,12 +23,7 @@ h1, h2, h3, h4, p {
 	padding: 1.5rem 0;
 	margin-bottom: 3rem;
 }
-.menu{
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	width:100%;
-}
+
 
 .menu h1{
 	color: #ffffff;
