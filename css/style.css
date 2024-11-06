@@ -11,10 +11,10 @@ h1, h2, h3, h4, p {
 }
 
 .container{
-	width:100%;
-	justify-content: center;
-	align-items: center;
-	display:felx;
+	width:80%;
+	margin: 0 auto;
+	overflow:hidden;
+	
 }
 
 /* Navigation Menu */
@@ -28,6 +28,7 @@ h1, h2, h3, h4, p {
 .menu h1{
 	color: #ffffff;
 	margin-bottom: 1rem;
+	padding:1.5rem 0;
 }
 
 .menu ul{
@@ -39,6 +40,7 @@ h1, h2, h3, h4, p {
 
 .menu ul li{
 	margin: 0 15px;
+	display:inline;
 }
 .menu ul li a{
 	color: #ffffff;
