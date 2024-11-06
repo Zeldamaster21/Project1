@@ -11,7 +11,7 @@ h1, h2, h3, h4, p {
 }
 
 .container{
-	width:80%;
+	width:960px;
 	margin: 0 auto;
 	overflow:hidden;
 	
@@ -22,12 +22,13 @@ h1, h2, h3, h4, p {
 	background-color: #1a70c2;
 	padding: 1.5rem 0;
 	margin-bottom: 3rem;
+	position:relative
 }
 
 
 .menu h1{
 	color: #ffffff;
-	margin-bottom: 1rem;
+	margin: 0;
 	padding:1.5rem 0;
 }
 
@@ -35,10 +36,10 @@ h1, h2, h3, h4, p {
 	list-style: none;
 	margin:0;
 	padding: 0;
-	display:flex;
 }
 
 .menu ul li{
+	display:inline;
 	margin: 0 15px;
 	display:inline;
 }
