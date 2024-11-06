@@ -45,7 +45,6 @@ h1, h2, h3, h4, p {
 	text-decoration: none;
 	font-size: 20px;
 }
-
 /* header styles */
 h1{
 	font-size: 2.5rem;
@@ -59,16 +58,7 @@ h3,h4{
 	color: #164B87;
 	font-weight: 700;
 }
-/* info styles */
-.introduction, .education, .hobbies, .place-of-work, .rugby, .info-on-my-mother, .info-on-my-father, .info-about-my-dog{
-	background-color: #ffffff;
-	border-radius: 1rem;
-	padding: 2rem;
-	margin-bottom: 3rem;
-}
-p, ul{
-	font-size: 1.0rem;
-}
+
 /* photo styles */
 img{
 	display: block;
@@ -86,6 +76,19 @@ img{
 	border-radius: 1rem;
 	display: block;
 	margin: 0 auto 1rem;
+}
+
+
+
+/* info styles */
+.introduction, .education, .hobbies, .place-of-work, .rugby, .info-on-my-mother, .info-on-my-father, .info-about-my-dog{
+	background-color: #ffffff;
+	border-radius: 1rem;
+	padding: 2rem;
+	margin-bottom: 3rem;
+}
+p, ul{
+	font-size: 1.0rem;
 }
 
 /* fitting it into other devices styles */
