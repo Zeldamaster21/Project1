@@ -11,9 +11,10 @@ h1, h2, h3, h4, p {
 }
 
 .container{
-	width:960px;
+	width:80%;
 	margin: 0 auto;
-	overflow:hidden;
+	text-align:center;
+	padding:3rem;
 	
 }
 
@@ -22,7 +23,6 @@ h1, h2, h3, h4, p {
 	background-color: #1a70c2;
 	padding: 1.5rem 0;
 	margin-bottom: 3rem;
-	position:relative
 	text-align: center;
 }
 
