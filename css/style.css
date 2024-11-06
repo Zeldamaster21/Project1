@@ -33,9 +33,11 @@ h1, h2, h3, h4, p {
 }
 
 .menu ul{
-	list-style: none;
+	list-style-type: none;
 	margin:0;
 	padding: 0;
+	display:inline-block;
+	
 }
 
 .menu ul li{
