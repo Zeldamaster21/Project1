@@ -18,7 +18,7 @@ h1, h2, h3, h4, p {
 }
 
 /* Navigation Menu */
-#menu{
+.menu{
 	background-color: #1a70c2;
 	padding: 1.5rem 0;
 	margin-bottom: 3rem;
@@ -27,13 +27,13 @@ h1, h2, h3, h4, p {
 }
 
 
-#menu h1{
+.menu h1{
 	color: #ffffff;
 	margin: 0;
 	padding:1.5rem 0;
 }
 
-#menu ul{
+.menu ul{
 	list-style-type: none;
 	margin:0;
 	padding: 0;
@@ -42,12 +42,12 @@ h1, h2, h3, h4, p {
 	
 }
 
-#menu ul li{
+.menu ul li{
 	display:inline-block;
 	margin: 0 15px;
 	display:inline;
 }
-#menu ul li a{
+.menu ul li a{
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 20px;
