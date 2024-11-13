@@ -1,3 +1,7 @@
+/* Importing Google Font */
+/* Importing Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
 /* my page styles*/
 body{
 	font-family: 'Courier New', monospace;
@@ -114,4 +118,38 @@ p, ul{
 	max-width: 100%;
     }
 
+}
+/*Map html*/
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+#mapmain {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,80,255,1) 43%, rgba(0,0,0,1) 100%); 
+}
+
+#mapbody {
+  background-image: url('../images/mapimage.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  float: none;
+  line-height: 1.6;
+  padding: 2%;
+}
+
+#map {
+  width: 50%;
+  height: 400px;
+}
+
+#mapheader nav a:hover {
+  color: Blue;
+  opacity: 0.6;
+  transition: 0.2s;
 }
