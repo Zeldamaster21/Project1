@@ -18,5 +18,56 @@
         </ul>
      </div>
 	 <h1 class="page-title">My place of work</h1>
+	  <div class="location-of-work" id="location-of-work">
+	  <h2>Location of My place of work</h2>
+	  <img src="media/midtown_logo_green.png" alt="photo of midtown logo" class="logo">
+	 </div>
+	 <script>
+	 async function googleMap(){
+	 const{ ColorScheme } = await google.maps.importLibrary("core");
+	 const workcoord = {lat: 41.908870, lng: -87.686280};
 	 
+	 const showmap= new google.maps.Map(document.getElementById("map"), {
+	 center: workcoord,
+	 zoom:10,
+	 mapTypeId:google.maps.MapTypeId.ROADMAP,
+	 colorScheme: ColorScheme.DARK
+	 });
 	 
+	 const maker = new google.maps.Marker({
+	 position: workcoord,
+	 map: showmap,
+	 Animation: google.maps.Animation.DROP,
+	 title: "Top Cut Comics",
+	 });
+	 const MCinfo = new google.maps.infoWindow({
+	 content:
+	 <div class= "content" style=" color: black;">
+	 <h1>Midtown Center for Boys</h1>
+	 <h3> This is where I work 3 days out of the week</h3>
+	 </div>
+	 `,
+	 });
+	 
+	 marker.addListener("mouseover", function(){
+	 MCinfo.open(showmap, marker);
+	 });
+	 
+	 marker.addListener("mouseover", function() {
+	 MCinfo.close();
+	 });
+	 
+	 marker.addListener("click", function () {
+	 if(marker.getAnimation() !==null){
+	 marker.setAnimation(null);
+	 }else{
+	 marker.setAnimation(google.maps.Animation.BOUNCE);
+	 }
+	 });
+	 
+	 }
+	 
+		</script>
+		<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbSMloSHOTae2B9IWNE_AbVq_gzg6JUrE&callback=googleMap"></script>
+	 </body>
+	 </html>
