@@ -23,7 +23,7 @@ function startSlideshow(){
 	interval = setInterval(nextSlide, 4000);
 }
 
-document.addEventListener("DOMCcontentLoaded", () =>{
+document.addEventListener("DOMContentLoaded", () =>{
 	showSlide(slideIndex);
 	startSlideshow();
 });
