@@ -70,6 +70,9 @@ img {
     margin: 0 auto 2rem;
     border-radius: 1rem;
     object-fit: cover;
+    background-color: white; /* Added white background */
+    padding: 10px; /* Optional: add padding around images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
 }
 
 /* Map styles */
