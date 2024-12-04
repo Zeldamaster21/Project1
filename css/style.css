@@ -67,7 +67,7 @@ h2, h3, h4, p {
     background-color: white; /* White background */
     padding: 10px; /* Padding around the text */
     border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow */
 }
 
 /* Photo styles */
@@ -87,8 +87,8 @@ img {
 #map {
     width: 100%; /* Ensure full width */
     height: 400px; /* Ensure correct height */
-    border-radius: 8px; /* Optional rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+    border-radius: 8px; /*rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*shadow effect */
 }
 
 /* Responsive styles */
