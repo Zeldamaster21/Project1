@@ -63,7 +63,7 @@ h3, h4 {
 }
 
 /* New text styling for background and padding */
-h1, h2, h3, h4, p {
+h2, h3, h4, p {
     background-color: white; /* White background */
     padding: 10px; /* Padding around the text */
     border-radius: 5px; /* Rounded corners */
